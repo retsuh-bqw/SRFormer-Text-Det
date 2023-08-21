@@ -37,7 +37,8 @@ pip install setuptools==59.5.0
 cd SRFormer-Text-Detection
 python setup.py build develop
 ```
-
+- ### Data Preparation
+  TBD
 
 - ### Training
 

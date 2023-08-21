@@ -17,9 +17,9 @@ Segmentation models offer enhanced robustness to font variations but require int
 
 |Benchmark|Backbone|Precision|Recall|F-measure|Pre-trained Model|Fine-tuned Model|
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|Total-Text|Res50|92.2|87.9|90.0|TBD|TBD|
-|CTW1500|Res50|89.4|89.6|89.5|TBD|TBD|
-|ICDAR19 ArT|Res50|86.2|73.4|79.3|TBD|TBD|
+|Total-Text|Res50|92.2|87.9|90.0|[OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgUcE1EhRK17fFhNf?e=Yg1ula)|[Seg#1](https://1drv.ms/u/s!AtF4kB5K12hqgUnwxi_vVITCBG-w?e=2tQnYB); [Seg#2](https://1drv.ms/u/s!AtF4kB5K12hqgT8xV85-mDo6_Ino?e=Vf6hp2); [Seg#3](https://1drv.ms/u/s!AtF4kB5K12hqgUiPObZeQvYoAjnb?e=MD6UTo)|
+|CTW1500|Res50|89.4|89.6|89.5|Same as above $\uparrow$ |[Seg#1](https://1drv.ms/u/s!AtF4kB5K12hqgU3EyDwv7-CDr8KY?e=H0606E); [Seg#3](https://1drv.ms/u/s!AtF4kB5K12hqgUz3PqgiXdoEH7kw?e=tHIeIg)|
+|ICDAR19 ArT|Res50|86.2|73.4|79.3|[OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgUvaI9K329gHzQzz?e=mWeERS)|[Seg#1](https://1drv.ms/u/s!AtF4kB5K12hqgUpcOheps7ztstF1?e=Dw0KXA)|
 
 ## Usage
 

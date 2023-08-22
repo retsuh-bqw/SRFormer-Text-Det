@@ -1,7 +1,7 @@
 <h1 align="center"> SRFormer: Empowering Regression-Based Text Detection Transformer with Segmentation </h1> 
 
 <p align="center">
-<a href="[https://arxiv.org/pdf/2207.04491v2.pdf](https://arxiv.org/abs/2308.10531)"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2308.10531"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="https://paperswithcode.com/sota/scene-text-detection-on-total-text?p=srformer-empowering-regression-based-text"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/srformer-empowering-regression-based-text/scene-text-detection-on-total-text"></a>
 <a href="https://paperswithcode.com/sota/scene-text-detection-on-scut-ctw1500?p=srformer-empowering-regression-based-text"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/srformer-empowering-regression-based-text/scene-text-detection-on-scut-ctw1500"></a>
 </p>

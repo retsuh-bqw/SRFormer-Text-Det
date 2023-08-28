@@ -18,6 +18,7 @@ Segmentation models offer enhanced robustness to font variations but require int
 
 ## Updates
 **08/21/2023:** Core code \& checkpoints uploaded
+**08/28/2023:** Update data preparation
 
 ## Main Results
 
@@ -44,7 +45,67 @@ cd SRFormer-Text-Detection
 python setup.py build develop
 ```
 - ### Data Preparation
-  TBD
+
+>**SynthText-150K & MLT & LSVT (images):**  [Source]((https://github.com/aim-uofa/AdelaiDet/tree/master/datasets) ) 
+>
+>**Total-Text (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccOW1TUlgm64M0yRA?e=jwY6b1)
+>
+>**CTW1500 (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccPGEv4DkiUl23MEg?e=44CtL6)
+>
+>**ICDAR19 ArT (including rotated images)**: [OneDrive]()
+>
+>**Annotations for training and evaluation:** [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgVr0wHEUD7XzVePw?e=EKcBDC)
+
+**Organize your data as follows:** 
+```
+|- datasets
+   |- syntext1
+   |  |- train_images
+   |  └─ train_poly_pos.json  
+   |- syntext2
+   |  |- train_images
+   |  └─ train_poly_pos.json
+   |- mlt
+   |  |- train_images
+   |  └─ train_poly_pos.json
+   |- valid_mlt
+   |  |- All
+   |  |- Arabic
+   |  |- Bangla
+   |  |- Chinese
+   |  |- Japanese
+   |  |- Korean
+   |  |- Latin
+   |  |- Arabic_test.json
+   |  |- Bangla_test.json
+   |  |- Chinese_test_json
+   |  |- Japanese_test.json
+   |  |- Korean_test.json
+   |  |- Latin_test.json
+   |  └─ mlt_valid_test.json
+   |- totaltext
+   |  |- test_images_rotate
+   |  |- train_images_rotate
+   |  |- test_poly.json
+   |  |─ train_poly_pos.json
+   |  └─ train_poly_rotate_pos.json
+   |- ctw1500
+   |  |- test_images
+   |  |- train_images_rotate
+   |  |- test_poly.json
+   |  └─ train_poly_rotate_pos.json
+   |- lsvt
+   |  |- train_images
+   |  └─ train_poly_pos.json
+   |- art
+   |  |- test_images
+   |  |- train_images_rotate
+   |  |- test_poly.json
+   |  |─ train_poly_pos.json
+   |  └─ train_poly_rotate_pos.json
+   |- evaluation
+   |  |- *.zip
+```
 
 - ### Training
 

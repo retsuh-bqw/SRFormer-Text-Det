@@ -46,7 +46,7 @@ python setup.py build develop
 ```
 - ### Data Preparation
 
->**SynthText-150K & MLT & LSVT (images):**  [Source]((https://github.com/aim-uofa/AdelaiDet/tree/master/datasets) ) 
+>**SynthText-150K & MLT & LSVT (images):**  [Source](https://github.com/aim-uofa/AdelaiDet/tree/master/datasets) 
 >
 >**Total-Text (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccOW1TUlgm64M0yRA?e=jwY6b1)
 >

@@ -113,21 +113,21 @@ python setup.py build develop
 To pre-train the model for Total-Text and CTW1500, the config file should be `configs/SRformer/Pretrain/R_50_poly.yaml`. For ICDAR19 ArT, please use `configs/SRFormer/Pretrain_ArT/R_50_poly.yaml`. Please adjust the GPU number according to your situation.
 
 ```
-python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus 4
+python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus 8
 ```
 
 **2. Fine-tune:**
 With the pre-trained model, use the following command to fine-tune it on the target benchmark. The pre-trained models are also provided.  For example:
 
 ```
-python tools/train_net.py --config-file configs/SRFormer/TotalText/R_50_poly.yaml --num-gpus 4
+python tools/train_net.py --config-file configs/SRFormer/TotalText/R_50_poly.yaml --num-gpus 8
 ```
 
 - ### Evaluation
 ```
-python tools/train_net.py --config-file ${CONFIG_FILE} --eval-only MODEL.WEIGHTS ${MODEL_PATH}
+python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus ${NUM_GPUS} --eval-only
 ```
-For ICDAR19 ArT, a file named `art_submit.json` will be saved in `output/r_50_poly/art/finetune/inference/`. The json file can be directly submitted to [the official website](https://rrc.cvc.uab.es/?ch=14) for evaluation.
+For ICDAR19 ArT, a file named `art_submit.json` will be saved in `output/r_50_poly/art/finetune/inference/`. The json file can be directly submitted to [the ICDAR19-ArT website](https://rrc.cvc.uab.es/?ch=14) for evaluation.
 
 - ### Inference & Visualization
 ```

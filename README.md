@@ -18,6 +18,7 @@ Segmentation models offer enhanced robustness to font variations but require int
 
 ## Updates
 **08/21/2023:** Core code \& checkpoints uploaded
+
 **08/28/2023:** Update data preparation
 
 ## Main Results
@@ -52,7 +53,7 @@ python setup.py build develop
 >
 >**CTW1500 (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccPGEv4DkiUl23MEg?e=44CtL6)
 >
->**ICDAR19 ArT (including rotated images)**: [OneDrive]()
+>**ICDAR19 ArT (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgVufZu390bfiaHMf?e=20VN6D)
 >
 >**Annotations for training and evaluation:** [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgVr0wHEUD7XzVePw?e=EKcBDC)
 

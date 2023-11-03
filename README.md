@@ -37,9 +37,9 @@ It's recommended to configure the environment using Anaconda. Python 3.10 + PyTo
 ```
 conda create -n SRFormer python=3.10 -y
 conda activate SRFormer
-pip install torch==1.13.1+cu111 torchvision==0.10.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install opencv-python scipy timm shapely albumentations Polygon3
-python -m pip install detectron2
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 pip install setuptools==59.5.0
 
 cd SRFormer-Text-Detection

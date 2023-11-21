@@ -55,8 +55,10 @@ python setup.py build develop
 >
 >**ICDAR19 ArT (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgVufZu390bfiaHMf?e=20VN6D)
 >
+>**Validation Set of MLT17 categorized by language:** [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgXCzVB5JUNSW3wRP?e=IrydBa)
+>
 >**Annotations for training and evaluation:** [OneDrive](https://1drv.ms/u/s!AtF4kB5K12hqgVr0wHEUD7XzVePw?e=EKcBDC)
-
+>
 **Organize your data as follows:** 
 ```
 |- datasets

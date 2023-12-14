@@ -113,6 +113,9 @@ python setup.py build develop
 ```
 
 - ### Training
+  
+**Step 0:** You should first set [SEG_LAYERS](https://github.com/retsuh-bqw/SRFormer-Text-Det/blob/8e45d1434a708d2988323fef56f161d167affdcd/configs/SRFormer/Base.yaml#L26C12-L26C12) in *configs/SRFormer/base.yaml*  to determine the number of decoder layers incorporated in the Segmentation & Regression chunk. For more detailed information, please refer to our paper.
+
 
 **1. Pre-train:**
 To pre-train the model for Total-Text and CTW1500, the config file should be `configs/SRformer/Pretrain/R_50_poly.yaml`. For ICDAR19 ArT, please use `configs/SRFormer/Pretrain_ArT/R_50_poly.yaml`. Please adjust the GPU number according to your situation.

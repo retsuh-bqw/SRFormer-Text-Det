@@ -1,4 +1,4 @@
-<h1 align="center"> SRFormer: Empowering Regression-Based Text Detection Transformer with Segmentation </h1> 
+<h1 align="center"> SRFormer: Text Detection Transformer with Incorporated Segmentation and Regression </h1> 
 
 <p align="center">
 <a href="https://arxiv.org/abs/2308.10531"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
@@ -7,7 +7,7 @@
 <a href="https://paperswithcode.com/sota/scene-text-detection-on-ic19-art?p=srformer-empowering-regression-based-text"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/srformer-empowering-regression-based-text/scene-text-detection-on-ic19-art"></a>
 </p>
 
-This is the official repo for the paper "SRFormer: Empowering Regression-Based Text Detection Transformer with Segmentation".
+This is the official repo for the paper "SRFormer: Text Detection Transformer with Incorporated Segmentation and Regression".
 
 ## Introduction
 

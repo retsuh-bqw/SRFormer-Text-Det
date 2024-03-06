@@ -142,6 +142,17 @@ For ICDAR19 ArT, a file named `art_submit.json` will be saved in `output/r_50_po
 python demo/demo.py --config-file ${CONFIG_FILE} --input ${IMAGES_FOLDER_OR_ONE_IMAGE_PATH} --output ${OUTPUT_PATH} --opts MODEL.WEIGHTS <MODEL_PATH>
 ```
 
+## Citation
+
+If you find our work useful or inspiring, please consider citing:
+```
+@article{bu2023srformer,
+  title={Srformer: Empowering regression-based text detection transformer with segmentation},
+  author={Bu, Qingwen and Park, Sungrae and Khang, Minsoo and Cheng, Yichuan},
+  journal={arXiv preprint arXiv:2308.10531},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 

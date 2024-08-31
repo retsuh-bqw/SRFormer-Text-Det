@@ -146,11 +146,14 @@ python demo/demo.py --config-file ${CONFIG_FILE} --input ${IMAGES_FOLDER_OR_ONE_
 
 If you find our work useful or inspiring, please consider citing:
 ```
-@article{bu2023srformer,
-  title={Srformer: Empowering regression-based text detection transformer with segmentation},
+@inproceedings{bu2024srformer,
+  title={SRFormer: Text Detection Transformer with Incorporated Segmentation and Regression},
   author={Bu, Qingwen and Park, Sungrae and Khang, Minsoo and Cheng, Yichuan},
-  journal={arXiv preprint arXiv:2308.10531},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={2},
+  pages={855--863},
+  year={2024}
 }
 ```
 
